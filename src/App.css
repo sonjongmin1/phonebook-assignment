@@ -1,0 +1,34 @@
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.phonebook-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+}
+
+.left-box-control {
+  margin-top: 32px;
+}
+
+.Button-control {
+  margin-top: 10px;
+}
+
+.searchBox-control {
+  margin-bottom: 10px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* 원하는 간격 설정 */
+}
